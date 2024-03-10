@@ -73,3 +73,11 @@ button:hover{
 .results li[data-correct="false"] {
   color: red;
 }
+
+.results li[data-correct="true"] span{
+  color: black;
+}
+
+.results li[data-correct="false"] span{
+  color: black;
+}
