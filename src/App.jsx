@@ -3,12 +3,13 @@ import { useState } from 'react'
 
 
 function App() {
-  
+  const [currentQuestion,setcurrentQuestion] = useState(0);
+  const [userAnswers,setUserAnswers] = useState([]);
 
   return (
-    <>
-      Hello
-    </>
+   <div className='App'>
+    <h1>Quiz</h1>
+   </div>
   )
 }
 
